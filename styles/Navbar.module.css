@@ -1,0 +1,66 @@
+.navbar{
+    background-color:white !important;
+    height:fit-content;
+    font-family:"Acumin";
+}
+
+.brand, .linkItem{
+    color: rgba(0,0,0,0.75) !important;
+}
+
+.linkItem{
+    padding-left:50px !important;
+    padding-right:50px !important;
+    align-self: center;
+    text-decoration: none !important;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.linkItem:after{
+    content: " ";
+    display: block;
+    transform: scaleX(0);
+    transition: transform 250ms ease-out;
+    padding-bottom: 5px;
+    border-bottom: 5px solid royalblue !important;
+}
+
+
+.linkItem:hover:after{
+    transform: scaleX(0.5);
+  }
+
+  @media screen and (max-width:578px){
+    .navbar_nav{
+        /* background-color:royalblue !important; */
+        /* color: royalblue !important; */
+        border: 1.5px solid silver;
+        border-radius: 10px !important;
+    }
+
+    .linkItem{
+        text-align: left !important;
+        justify-content:end !important;
+    }
+
+    .linkItem:after{
+        content: " ";
+        display: block;
+        transform: scaleX(0);
+        transition: transform 250ms ease-out;
+        padding-bottom: 5px;
+        border-bottom: 3px solid royalblue !important;
+    }
+
+    
+    .linkItem:hover:after{
+        transform: scaleX(1);
+    }
+
+      .brand_img{
+          width: 20px !important;
+          height: 20px !important;
+      }
+  }
+

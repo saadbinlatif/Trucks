@@ -1,0 +1,402 @@
+.productGrid {
+  margin-top: 50px;
+  font-weight: 400 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.productRow{
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.productImageColWrapper {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: min(500px, 90vw);
+}
+
+.productImageDiv {
+  height: min(500px, 90vw);
+  width: min(500px, 90vw);
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center;
+  border:1px solid #999e9f99 !important;
+}
+
+
+
+.productImage {
+  height: 100%;
+  width: 100%;
+}
+
+.colorFormWrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.colorBox {
+  height: 50px;
+  width: 60px;
+  border:1px solid #999e9f99 !important;
+  margin: 6px;
+}
+
+.dropdownDiv {
+  width: 100%;
+  margin: 6px;
+}
+
+.dropdownColorToggle {
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  border:1px solid #999e9f99 !important;
+  color: black;
+  text-align: start;
+  font-size: 24px;
+  font-weight: 300 !important;
+  border-radius: 0px !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdownColorToggle:focus {
+  background-color: white;
+  color: black;
+  font-size: 24px;
+  font-weight: 300 !important;
+}
+.dropdownColorToggle:hover {
+  background-color: white;
+  color: black;
+  font-size: 24px;
+  font-weight: 300 !important;
+}
+
+.dropdownColorToggle::after {
+  background-color: white;
+  color: black;
+  font-size: 24px;
+  font-weight: 300 !important;
+}
+
+.dropdownItemColor {
+  height: 100%;
+  width: 90%;
+  margin-top: 5px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  border: 1px solid transparent;
+  font-size: 24px;
+  border-radius: 20px;
+}
+
+.option {
+  font-size: 24px;
+  font-weight: 300 !important;
+}
+
+.productDiv {
+  width: min(500px, 90%);
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.addNewPDiv {
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.productDivAdd {
+  margin-top: 5px;
+  padding-top: 0px;
+  width: min(482px, 90%);
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.listGroupItem {
+  width: 100%;
+  margin: 6px;
+  height: max(40px, fit-content);
+  align-items: center;
+  background-color: white;
+  border:1px solid #999e9f99 !important;
+  color: #808285;
+  text-align: start;
+  font-size: 20px;
+  border-radius: 0px !important;
+}
+
+.spanListGroupItem {
+  background-color: white;
+  align-items: center !important;
+  align-content: center !important;
+  align-self:center !important;
+  border-radius: 0px !important;
+  border: 0px;
+  border:1px solid #999e9f99 !important;
+}
+
+.crimsonSpan {
+  color: black;
+}
+
+.pListGroupItem {
+  align-items: center !important;
+  align-content: center !important;
+  align-self:center !important;
+  border-radius: 0px !important;
+  border: 0px;
+}
+
+.variationsP{
+  padding: 0px !important;
+  margin:0px !important;
+  align-items: center !important;
+  align-content: center !important;
+  align-self:center !important;
+}
+
+.inputGroup {
+  margin-top: 20px;
+  max-width: 500px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.categoryDropdown {
+  max-width: max-content;
+  border:1px solid #999e9f99 !important;
+  background-color: white;
+  color: black;
+  font-weight: 300 !important;
+  font-size: 20px;
+}
+
+.categoryAddLettering {
+  height: 50px !important;
+  margin-top: 15px !important;
+  border-radius: 0px !important;
+  border:1px solid #999e9f99 !important;
+  font-size: 24px;
+  font-weight: 300 !important;
+}
+
+
+.categoryAddLettering::placeholder {
+  color: black;
+  font-size: 24px;
+  font-weight: 300 !important;
+}
+
+.searchButton {
+  border-color: #808285;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  font-weight: 300 !important;
+  border-radius: 0px;
+}
+
+.searchButton:hover,
+.searchButton:focus,
+.searchButton:after {
+  border-color: #808285;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+}
+
+.orderInfoForm {
+  margin-top: 50px;
+}
+
+.formGroup {
+  margin-left: auto;
+  margin-top: 10px;
+  width: (100% - 52px);
+}
+
+.formGroupSpan {
+  margin-left: auto;
+  margin-top: 20px;
+  max-width: 460px;
+  text-align: center;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.inputGroupText {
+  font-size: 16px !important;
+  font-weight: 300 !important;
+  font-weight: 300 !important;
+  background-color: white;
+  border:1px solid #999e9f99 !important;
+}
+
+.dummyDeleteBox {
+  height: 50px;
+  width: 52px;
+}
+
+.formControl {
+  height: 50px;
+  border-color: #999e9f99;
+  border-radius: 0px;
+}
+
+.commentFormControl {
+  height: 200px;
+}
+
+.commentFormControl::placeholder {
+  color: black;
+  font-size: 24px;
+  font-weight: 300 !important;
+}
+
+.commentFormControl:disabled{
+  font-size: 24px;
+  font-weight: 300 !important;
+  /* background-color:#c12e2a; */
+  opacity: 0.5;
+}
+
+.emailFormControl::placeholder {
+  color: black;
+  font-size: 24px;
+  font-weight: 300 !important;
+}
+
+.emailFormControl:disabled{
+  font-size: 24px;
+  font-weight: 300 !important;
+  opacity: 0.5;
+}
+
+.orderNowButtonDiv {
+  width: 80%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: start;
+}
+
+.orderNowButton {
+  border-color: #bf1e2d;
+  background-color: #bf1e2d;
+  color: white;
+  margin-top: 20px;
+  border-radius: 0px;
+  font-size: 24px !important;
+  font-weight: 300 !important;
+}
+
+.orderNowButton:hover,
+.orderNowButton:focus,
+.orderNowButton:after {
+  border-color: crimson;
+  background-color: crimson;
+  color: white;
+}
+
+.inputGroupTextAmount {
+  border: 0px solid transparent;
+  font-size: 20px !important;
+}
+
+.amountFormControl {
+  max-width: 65px;
+  /* border: 0px solid transparent; */
+  border:1px solid #999e9f99 !important;
+}
+
+.amountFormControlExtra {
+  margin-left: 70px !important;
+}
+
+@media screen and (max-width: 758px) {
+  .dummyDeleteBox {
+    width: 0px;
+  }
+  .amountFormControlExtra {
+    margin-left: 0px !important;
+    padding-left: 10px !important;
+  }
+
+  .categoryDropdown {
+    font-size: 16px;
+  }
+
+  .option {
+    font-size: 16px;
+  }
+
+  .categoryAddLettering {
+    font-size: 16px;
+  }
+}
+
+
+@media screen and (min-width: 758px) and (max-width: 1024px) {
+  .productImageColWrapper {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 300px
+  }
+  
+  .productImageDiv {
+    height: 300px;
+    width: 300px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+    border:1px solid #999e9f99 !important;
+  }
+
+  .amountFormControlExtra {
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+  }
+}
+
+@media screen and (max-width: 578px){
+  .vinylInfo{
+    width: 90% !important;
+    margin-top: 20px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: justify;
+  }
+
+  .productDiv{
+    width: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .productDivAdd{
+    width: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .amountFormControlExtra {
+    padding-left: 0px !important;
+  }
+
+  .orderNowButtonDiv {
+    width: 80%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+  }
+}

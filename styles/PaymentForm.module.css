@@ -1,0 +1,89 @@
+.form{
+    max-width: 600px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-weight: 300 !important;
+}
+
+.row{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+.formGroup{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-weight: 300 !important;
+}
+
+.formControl{
+    border:1px solid #999e9f99 !important;
+    font-size:20px;
+    border-radius: 0px;
+    font-weight: 300 !important;
+}
+
+.formControl::placeholder{
+    color: black;
+}
+
+.formGroupLeftCol{
+    margin-top: 20px;
+    padding:0px;
+    margin-left: auto !important;
+}
+
+.formGroupRightCol{
+    margin-top: 20px;
+    padding:0px;
+    margin-right: auto !important;
+}
+
+.cardFormGroup{
+    width: 100%;
+    margin-top: 45px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.orderNowButtonDiv{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.orderNowButton{
+    background-color: #bf1e2d;
+    color:white;
+    border-color: #bf1e2d;
+    border-radius: 0px;
+    font-size: 18px;
+}
+
+.orderNowButton:hover,
+.orderNowButton:focus,
+.orderNowButton:after{
+    background-color: crimson;
+    color:white;
+    border-color: crimson;
+    border-radius: 0px;
+    font-size: 18px;
+}
+
+.priceP{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.crimsonSpan{
+    color:#bf1e2d;
+}
+
+@media screen and (max-width: 578px){
+    .form{
+        width: 90%;
+        max-width: 600px;
+    }
+}

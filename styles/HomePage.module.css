@@ -1,0 +1,276 @@
+.container {
+  font-weight: 400 !important;
+}
+
+.bannerContainer {
+  background-color: #bf1e2d;
+  width: 100% !important;
+  height: fit-content !important;
+  text-align: center !important;
+  font-family: Athena;
+  margin-left: auto !important;
+  margin-right: auto !important
+}
+
+.banner {
+  margin: auto;
+  padding: 20px;
+  color: white;
+  font-size: 3rem;
+  align-self: center;
+}
+
+.truckImg {
+  height: 500px;
+  width: 100%;
+}
+
+.br{
+  height: 0px;
+}
+
+
+.uploadLogoContainer {
+  background-color: rgba(0,0,0,0.9);;
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 400 !important;
+  width: 100%;
+}
+
+.uploadLogoHeader {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Athena;
+  font-size: 60px;
+}
+
+.uploadLogoPBold,
+.uploadLogoP {
+  margin: 0px;
+  font-size: 14px;
+}
+
+.uploadLogoPBold {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.uploadButton {
+  background-color: #bf1e2d;
+  color: white;
+  border-color: #bf1e2d;
+  border-radius: 0px;
+  width: 150px;
+  height: 40px;
+  padding-top: 3px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px !important;
+  font-family: "Acumin" !important;
+}
+
+.uploadButton:hover,
+.uploadButton:focus,
+.uploadButton:after {
+  background-color: crimson;
+  color: white;
+  border-color: crimson;
+  border-radius: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cardRow {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 90vw;
+  font-weight: 400 !important;
+}
+
+.cardCol {
+  padding-bottom: 50px;
+  font-weight: 400 !important;
+}
+
+.card {
+  background-color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 400 !important;
+  min-height: 300px;
+}
+
+.cardIcon_div{
+  height: 50px !important;
+  width: 50px !important;
+  margin-top: 25px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center;
+  position: 'relative';
+}
+
+.cardShippingIcon_div{
+  height: 60px !important;
+  width: 60px !important;
+  margin-top: 25px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center;
+  position: 'relative';
+}
+
+.cardIcon {
+  height: 50px;
+  width: 50px;
+}
+
+.cardShippingIcon{
+  height: 70px !important;
+  width: 70px !important;
+}
+
+.cardHeader {
+  background-color: white;
+  text-align: center;
+  color: #bf1e2d;
+  font-size: 24px !important;
+  border-color: white;
+}
+
+.cardTitle {
+  font-weight: 500 !important;
+  color: #1b75bc;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.cardBody {
+  color: black;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  padding-top: 0px !important;
+}
+
+.testimonialsContainer {
+  text-align: center;
+  color: black;
+  width: 100% !important;
+  font-weight: 400 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.testimonialsHeader {
+  color: #bf1e2d;
+  padding-top: 50px;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+  font-family: Athena;
+  font-size: 100px;
+}
+
+.testimonialsP {
+  margin: 0px !important;
+  padding: 0px !important;
+  font-size: 30px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.testimonialsRow{
+  width: 100% !important;
+  margin-top: 25px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center;
+}
+
+.testimonialsCol{
+  text-align: center;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.testimonialsWrapper {
+  text-align: center;
+  margin-top: 30px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display:flex !important;
+  flex-direction:column !important;
+  justify-content:center !important;
+}
+
+.testimonialsImg {
+  height:  min(550px, 80vw);
+  width:  min(700px, 80vw);
+  margin-left: auto !important;
+  margin-right: auto !important
+}
+
+.testimonialsFooter {
+  background-color: black;
+  color: white;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  height: 50px;
+  width: min(700px, 80vw);
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: left !important;
+  align-items: baseline !important;
+  padding-left: 10px;
+}
+
+.testimonialsP{
+  align-self: baseline !important;
+  line-height: 50px !important;
+  font-size: 20px !important;
+}
+
+
+@media screen and (max-width: 578px){
+  .bannerContainer {
+    width: 100% !important;
+  }
+  
+  .banner {
+    font-size: 2rem;
+  }
+
+  .uploadLogoHeader, .uploadLogoPBold, .uploadLogoP {
+    width: 90%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+  }
+
+  .uploadLogoHeader{
+    font-size: 2.0rem !important;
+  }
+
+  .uploadButton {
+    height: 50px !important;
+    margin-bottom: 50px;
+    padding-top: 10px !important;
+    font-size: 1.2rem !important;
+  }
+
+  .testimonialsContainer, .testimonialsHeader{
+    width: 90%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+  }
+
+  .testimonialsHeader {
+    font-size: 40px;
+  }
+}
